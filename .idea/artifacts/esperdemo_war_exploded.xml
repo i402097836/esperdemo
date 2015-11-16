@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="esperdemo:war exploded">
+  <artifact type="exploded-war" name="EsperDemo:war exploded">
     <output-path>$PROJECT_DIR$/target/EsperDemo</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="esperdemo" />
+          <element id="module-output" name="EsperDemo" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.espertech:esper:5.3.0" />
@@ -18,7 +18,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/EsperDemo/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="esperdemo/web/Web" />
+      <element id="javaee-facet-resources" facet="EsperDemo/web/Web" />
     </root>
   </artifact>
 </component>
